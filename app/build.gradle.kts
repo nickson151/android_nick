@@ -9,6 +9,8 @@ android {
     namespace = "com.example.historiasnickson2023"
     compileSdk = 34
 
+    
+
     defaultConfig {
         applicationId = "com.example.historiasnickson2023"
         minSdk = 24
@@ -60,6 +62,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.github.kittinunf.fuel:fuel:2.3.1")
+    implementation ("com.squareup.retrofit2:converter-gson:2.3.1") // Para la conversión JSON
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
