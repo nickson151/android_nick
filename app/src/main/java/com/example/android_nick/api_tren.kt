@@ -1,11 +1,11 @@
-package com.example.historiasnickson2023
+package com.example.android_nick
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class api_entrevista : AppCompatActivity() {
+class api_tren : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_api_entrevista)
+        setContentView(R.layout.activity_api_tren)
     }
 }

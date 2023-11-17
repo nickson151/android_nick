@@ -1,8 +1,8 @@
-package com.example.historiasnickson2023
+package com.example.android_nick
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.historiasnickson2023.databinding.ActivityApiGymBinding // Importa la clase de View Binding
+import com.example.android_nick.databinding.ActivityApiGymBinding // Importa la clase de View Binding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

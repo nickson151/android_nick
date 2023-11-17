@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.historiasnickson2023"
+    namespace = "com.example.android_nick"
     compileSdk = 34
 
     
 
     defaultConfig {
-        applicationId = "com.example.historiasnickson2023"
+        applicationId = "com.example.android_nick"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

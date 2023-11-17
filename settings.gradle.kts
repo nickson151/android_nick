@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Historias Nickson 2023"
+rootProject.name = "android_nick"
 include(":app")
  

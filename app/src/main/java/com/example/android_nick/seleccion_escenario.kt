@@ -1,14 +1,14 @@
-package com.example.historiasnickson2023
+package com.example.android_nick
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class seleccion_escenario_4 : AppCompatActivity() {
+class seleccion_escenario : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_seleccion_escenario4)
+        setContentView(R.layout.activity_seleccion_escenario)
 
         val boton_atras: ImageView = findViewById(R.id.boton_atras)
 
@@ -20,7 +20,7 @@ class seleccion_escenario_4 : AppCompatActivity() {
         val flecha_derecha: ImageView = findViewById(R.id.flecha_derecha)
 
         flecha_derecha.setOnClickListener{
-            val intent = Intent(this, tren_1::class.java)  // colocar a donde llega derecha Main D
+            val intent = Intent(this, entrevista_1::class.java)  // colocar a donde llega derecha Main D
             startActivity(intent)
         }
 
@@ -52,5 +52,6 @@ class seleccion_escenario_4 : AppCompatActivity() {
             val intent = Intent(this, seleccion_escenario_4::class.java)  // colocar a donde llega derecha Main D
             startActivity(intent)
         }
+
     }
 }

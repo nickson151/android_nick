@@ -1,19 +1,19 @@
-package com.example.historiasnickson2023
+package com.example.android_nick
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class tren_2 : AppCompatActivity() {
+class gym_1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tren2)
+        setContentView(R.layout.activity_gym1)
 
         val flecha_derecha: ImageView = findViewById(R.id.flecha_derecha)
 
         flecha_derecha.setOnClickListener{
-            val intent = Intent(this, tren_3::class.java)
+            val intent = Intent(this, gym_2::class.java)
             startActivity(intent)
         }
     }

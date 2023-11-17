@@ -1,4 +1,4 @@
-package com.example.historiasnickson2023
+package com.example.android_nick
 
 import org.junit.Test
 
