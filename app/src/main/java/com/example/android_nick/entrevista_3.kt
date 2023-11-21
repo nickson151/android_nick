@@ -11,10 +11,10 @@ class entrevista_3 : AppCompatActivity() {
         setContentView(R.layout.activity_entrevista2)
 
         val flecha_derecha: ImageView = findViewById(R.id.flecha_derecha)
-
+        /*
         flecha_derecha.setOnClickListener{
-            val intent = Intent(this, api_entrevista::class.java)
+            val intent = Intent(this, api_entrevista :: class.java)
             startActivity(intent)
-        }
+        }*/
     }
 }

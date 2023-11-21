@@ -6,7 +6,7 @@ import com.example.android_nick.servicesAPI.Entrevista
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class api_entrevista : AppCompatActivity() {
+/*class api_entrevista : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_api_entrevista)
@@ -32,4 +32,4 @@ class api_entrevista : AppCompatActivity() {
             })
         }
     }
-}
+}*/
